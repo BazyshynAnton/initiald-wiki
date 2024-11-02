@@ -3,39 +3,40 @@
   <p>This project is purely an educational and technical exercise, created to showcase my programming skills. None of the elements presented in this project have any real-world connection, and any resemblances to real events, organizations, or individuals are purely coincidental.</p>
 <div align='center'><img style="width:30%" src='https://github.com/user-attachments/assets/1529943b-de24-4c1f-8f2e-72be76c6aa08' /></div>
 
-## Technologies
-
--Next.js&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (version ^14.2.5) <br/>
--TypeScript&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (version ^5) <br/>
--FramerMotion&nbsp; (version ^11.3.0) <br/>
--SCSS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (version ^1.70.0)<br/>
--Swiper&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(version ^11.0.6)<br/>
--eslint&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (version ^8) <br/>
-
-## Features
-
--Display large amounts of data <br/>
--Video integration from YouTube <br/>
--Dynamic Routing <br/>
--Some elements use dynamic imports <br/>
--SSR <br/>
--Animations (SCSS or framermotion) 
-
-## Authors
-<p>Bazyshyn Anton</p>
-<p>GitHub - <a href='https://github.com/BazyshynAnton'>Bazyshyn Anton</a></p> 
-
 ## Installation
 
-1.Clone the repository or download the archive.  
-2.Navigate to the project's root folder.  
-3.Install dependencies: `npm install`  
+1.&nbsp;Clone the repository or download the archive.  
+2.&nbsp;Navigate to the project's root folder.  
+3.&nbsp;Install dependencies: `npm install`  
 
 ## Getting Started
 
 Start the project&nbsp; &nbsp;- `npm run dev`    <br/>
 Build the project&nbsp;&nbsp;- `npm run build`  <br/>
 Production&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- `npm run start`  <br/>
+
+## Technologies
+
+- Next.js&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(version ^14.2.5) <br/>
+- TypeScript&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(version ^5) <br/>
+- FramerMotion&nbsp;(version ^11.3.0) <br/>
+- SCSS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(version ^1.70.0)<br/>
+- Swiper&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(version ^11.0.6)<br/>
+- eslint&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(version ^8) <br/>
+
+## Features
+
+- Display large amounts of data. <br/>
+- Video integration from YouTube. <br/>
+- Dynamic Routing. <br/>
+- Some elements use dynamic imports. <br/>
+- SSR. <br/>
+- Animations (SCSS or framermotion). 
+
+## Authors
+
+<p>Bazyshyn Anton</p>
+<p>GitHub - <a href='https://github.com/BazyshynAnton'>Bazyshyn Anton</a></p> 
 
 ## Screenshots of the Project 📸  
 <div align="center"><h3>⚪ Home Page 🔴</h3></div>  
