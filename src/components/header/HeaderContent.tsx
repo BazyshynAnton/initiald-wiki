@@ -72,7 +72,7 @@ export default function HeaderContent({ menuOpen, handleClick }: Props) {
             target="blank"
             onClick={handleClick}
           >
-            Twitter
+            X
           </Link>
         </li>
       </ul>
