@@ -1,7 +1,7 @@
 <h2>⚠️Disclaimer⚠️</h2>
 
   <p>This project is purely an educational and technical exercise, created to showcase my programming skills. None of the elements presented in this project have any real-world connection, and any resemblances to real events, organizations, or individuals are purely coincidental.</p>
-<div align='center'><img style="width:30%" src='https://github.com/user-attachments/assets/1529943b-de24-4c1f-8f2e-72be76c6aa08' /></div>
+<div align='center'><img width="15%" src='https://github.com/user-attachments/assets/409021a2-9871-40a8-8e06-67ed4ca5ae40' /></div>
 
 ## Installation
 
