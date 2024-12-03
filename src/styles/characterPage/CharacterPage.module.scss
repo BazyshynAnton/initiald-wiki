@@ -37,7 +37,8 @@
   }
 }
 
-.slide__character {
+.slide__character,
+.characterContainer {
   width: 250px !important;
   height: 400px !important;
   transition: all 0.2s ease-in-out;

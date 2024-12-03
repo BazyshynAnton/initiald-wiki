@@ -1,8 +1,7 @@
 "use client"
 
-import TitleText from "../shared/reusableComponents/titleText/TitleText"
-import ReusablePage from "../shared/reusableComponents/reusablePage/ReusablePage"
-import Footer from "../footer/Footer"
+import TitleText from "../shared/TitleText"
+import ReusablePage from "../shared/ReusablePage"
 
 import { motion } from "@/components/shared/framerMotionImports"
 
@@ -40,7 +39,6 @@ export default function IntroductionPage() {
           </motion.p>
         </main>
       </ReusablePage>
-      <Footer />
     </>
   )
 }

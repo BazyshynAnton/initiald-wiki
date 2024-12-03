@@ -1,7 +1,5 @@
-import NavigationBar from "./contentOfHomePage/NavigationBar"
-import HeaderForSmallScreens from "../header/headerForSmallScreens/HeaderForSmallScreens"
-import ClientLoader from "../shared/reusableComponents/clientLoader/ClientLoader"
-import Footer from "../footer/Footer"
+import NavigationBar from "./NavigationBar"
+import ClientLoader from "../shared/ClientLoader"
 
 import dynamic from "next/dynamic"
 import { Image } from "@/components/shared/nextjsImports"
@@ -10,7 +8,7 @@ import styles from "@/styles/homePage/HomePage.module.scss"
 
 const DynamicUnderIntro = dynamic(
   () =>
-    import("./contentOfHomePage/UnderIntro").catch((error) => {
+    import("./UnderIntro").catch((error) => {
       console.error("Error loading UnderIntro:", error)
       throw error
     }),
@@ -22,9 +20,8 @@ export default function HomePage() {
     <>
       <main>
         <section className={styles.introduce}>
-          <HeaderForSmallScreens />
-
           <NavigationBar />
+
           <div className={styles.mainImgContainer}>
             <Image
               width={2000}
@@ -45,9 +42,9 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
         <DynamicUnderIntro />
       </main>
-      <Footer />
     </>
   )
 }

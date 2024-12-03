@@ -2,10 +2,12 @@
 
 import { usePathname, Image, Link } from "@/components/shared/nextjsImports"
 
-import styles from "@/styles/header/headerForBigScreensNextLayout/HeaderForBigScreensNextLayout.module.scss"
+import styles from "@/styles/header/HeaderForBigScreensNextLayout.module.scss"
 
 export default function HeaderForBigScreensNextLayout() {
   const pathname = usePathname()
+
+  if (pathname === "/") return
 
   return (
     <header className={styles.header}>
@@ -16,7 +18,6 @@ export default function HeaderForBigScreensNextLayout() {
             height={500}
             src="/pictures/userInterface/logoD.webp"
             alt="logoD"
-            loading="eager"
             className={styles.logoD}
           />
         </Link>

@@ -1,7 +1,7 @@
 "use client"
 
-import CustomNavigation from "./swiperComponents/CustomNavigation"
-import CustomPagination from "./swiperComponents/CustomPagination"
+import CustomNavigation from "./CustomNavigation"
+import CustomPagination from "./CustomPagination"
 
 import { motion } from "@/components/shared/framerMotionImports"
 import { Character } from "@/types/character/characterTypes"

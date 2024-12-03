@@ -1,14 +1,13 @@
 "use client"
 
-import ReusablePage from "../shared/reusableComponents/reusablePage/ReusablePage"
-import TitleText from "../shared/reusableComponents/titleText/TitleText"
-import AllProducts from "./allProducts/AllProducts"
-import Footer from "../footer/Footer"
+import ReusablePage from "@/components/shared/ReusablePage"
+import TitleText from "@/components/shared/TitleText"
+import AllProducts from "./AllProducts"
 
 import { motion } from "@/components/shared/framerMotionImports"
-import { Product } from "@/types/product/initialdProductType"
 import { useState } from "@/components/shared/reactImports"
-import { initialSortStateType } from "@/types/productPage/productPageTypes"
+import type { Product } from "@/types/product/initialdProductType"
+import type { initialSortStateType } from "@/types/productPage/productPageTypes"
 
 import styles from "@/styles/productPage/ProductPage.module.scss"
 
@@ -83,7 +82,6 @@ export default function ProductPage({ products }: { products: Product[] }) {
           </motion.div>
         </main>
       </ReusablePage>
-      <Footer />
     </>
   )
 }

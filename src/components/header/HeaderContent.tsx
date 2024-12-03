@@ -1,14 +1,15 @@
-import ReusableLinks from "@/components/shared/reusableComponents/ReusableNavLinks"
+import ReusableLinks from "@/components/shared/ReusableNavLinks"
 
 import { Image, Link } from "@/components/shared/nextjsImports"
 
-import styles from "@/styles/header/headerForSmallScreens/HeaderForSmallScreens.module.scss"
+import styles from "@/styles/header/HeaderForSmallScreens.module.scss"
 
 interface Props {
   menuOpen: boolean
+  handleClick: (event: React.MouseEvent<HTMLElement>) => void
 }
 
-export default function HeaderContent({ menuOpen }: Props) {
+export default function HeaderContent({ menuOpen, handleClick }: Props) {
   return (
     <div
       className={`${
@@ -25,6 +26,7 @@ export default function HeaderContent({ menuOpen }: Props) {
           alt="logoD"
           loading="eager"
           className={styles.logoDInContent}
+          onClick={handleClick}
         />
       </Link>
       <ReusableLinks />

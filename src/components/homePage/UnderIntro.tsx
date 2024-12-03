@@ -1,6 +1,6 @@
 "use client"
 
-import FilmCards from "@/components/shared/reusableComponents/filmCards/FilmCards"
+import FilmCards from "@/components/shared/FilmCards"
 
 import { motion } from "@/components/shared/framerMotionImports"
 import { useEffect, useState } from "@/components/shared/reactImports"

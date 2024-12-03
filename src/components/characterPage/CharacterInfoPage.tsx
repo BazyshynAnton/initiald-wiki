@@ -1,11 +1,11 @@
 "use client"
 
-import ClientLoader from "@/components/shared/reusableComponents/clientLoader/ClientLoader"
+import ClientLoader from "@/components/shared/ClientLoader"
 
-import { Character } from "@/types/character/characterInfo/characterInfoTypes"
+import { Character } from "@/types/character/characterInfoTypes"
 import { Image, usePathname, Link } from "@/components/shared/nextjsImports"
 
-import styles from "@/styles/characterPage/characterInfoPage/CharacterInfoPage.module.scss"
+import styles from "@/styles/characterPage/CharacterInfoPage.module.scss"
 
 export default function CharacterInfoPage({
   characters,

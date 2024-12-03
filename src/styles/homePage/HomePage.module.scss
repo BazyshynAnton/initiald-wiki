@@ -432,7 +432,7 @@
 
 @media (max-width: 900px) {
   .introduce {
-    grid-template-columns: 0 1fr;
+    grid-template-columns: 1fr;
   }
 
   .navigation {
@@ -440,7 +440,7 @@
   }
 
   .mainImgContainer {
-    margin-top: 120px;
+    margin-top: 0px;
   }
 }
 

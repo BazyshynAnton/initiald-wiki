@@ -1,18 +1,16 @@
 "use client"
 
-import TitleText from "../shared/reusableComponents/titleText/TitleText"
-import ReusablePage from "../shared/reusableComponents/reusablePage/ReusablePage"
-import Footer from "../footer/Footer"
+import TitleText from "../shared/TitleText"
+import ReusablePage from "../shared/ReusablePage"
 
 import dynamic from "next/dynamic"
 import { Character } from "@/types/character/characterTypes"
 
 import styles from "@/styles/characterPage/CharacterPage.module.scss"
 
-const DynamicCharacterSwiper = dynamic(
-  () => import("./contentOfCharacterPage/characterSwiper/CharacterSwiper"),
-  { ssr: false }
-)
+const DynamicCharacterSwiper = dynamic(() => import("./CharacterSwiper"), {
+  ssr: false,
+})
 
 export default function CharacterPage({
   characters,
@@ -29,7 +27,6 @@ export default function CharacterPage({
           <DynamicCharacterSwiper characters={characters} />
         </main>
       </ReusablePage>
-      <Footer />
     </>
   )
 }

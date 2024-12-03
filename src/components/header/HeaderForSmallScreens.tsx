@@ -1,11 +1,11 @@
 "use client"
 
-import HeaderContent from "./contentOfHeaderForSmallScreens/HeaderContent"
+import HeaderContent from "./HeaderContent"
 
 import { useState } from "@/components/shared/reactImports"
 import { Link, Image } from "@/components/shared/nextjsImports"
 
-import styles from "@/styles/header/headerForSmallScreens/HeaderForSmallScreens.module.scss"
+import styles from "@/styles/header/HeaderForSmallScreens.module.scss"
 
 export default function HeaderForSmallScreens() {
   const [menuOpen, setMenuOpen] = useState<boolean>(false)
@@ -35,7 +35,7 @@ export default function HeaderForSmallScreens() {
         <span></span>
         <span></span>
       </div>
-      <HeaderContent menuOpen={menuOpen} />
+      <HeaderContent menuOpen={menuOpen} handleClick={handleClick} />
     </div>
   )
 }
